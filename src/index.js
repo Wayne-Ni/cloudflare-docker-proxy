@@ -4,7 +4,7 @@ addEventListener("fetch", (event) => {
 });
 
 const routes = {
-  "${workername}.${username}.workers.dev/": "https://gcr.io",
+  "cloudflare-docker-proxy.cloudservicesqa.workers.dev": "https://gcr.io",
   "docker.e-whisper.com": "https://registry-1.docker.io",
   "quay.e-whisper.com": "https://quay.io",
   "k8s-gcr.e-whisper.com": "https://k8s.gcr.io",
